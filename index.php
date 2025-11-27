@@ -1,7 +1,6 @@
+<h1 style="text-align:center">CSV to SQL converter</h1>
 
-<h1 style ="text-align:center">CSV to SQL converter</h1>
-
-<form action="convert_action.php" method="post" enctype="multipart/form-data" style ="text-align:center" >
+<form action="convert_action.php" method="post" enctype="multipart/form-data" style="text-align:center">
     <div>
         <label for="database_name">Введите имя базы данных:</label>
         <br>
@@ -29,7 +28,7 @@
     <div>
         <label for="file">Загрузите ваши CSV: :</label>
         <br>
-        <input name="file[]" type="file" id="file" accept="text/csv" required multiple />
+        <input name="file[]" type="file" id="file" accept="text/csv" required multiple/>
     </div>
     <br><br>
     <div>
