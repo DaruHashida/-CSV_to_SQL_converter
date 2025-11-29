@@ -53,13 +53,7 @@ class CsvReader implements IteratorAggregate
             $row = $this->file->current();
             $this->file->next();
 
-            if (empty($row)) continue;
-
-            if ($row === [null]) continue;
-
-            if (trim(implode('', $row)) === '') {
-                continue;
-            }
+            if (empty($row) || $row === [null] || trim(implode('', $row)) === '') continue;
 
             yield $row;
         }
