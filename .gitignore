@@ -1,0 +1,7 @@
+/vendor/
+/.idea/
+/.vscode/
+*.lock
+*.csv
+*.sql
+.DS_Store

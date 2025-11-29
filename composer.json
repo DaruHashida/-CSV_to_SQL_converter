@@ -1,0 +1,22 @@
+{
+  "name": "daruhashida/csv-to-sql-converter",
+  "description": "Library for converting CSV files to SQL or importing them directly into Database",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "DaruHashida",
+      "email": "fedor.khvostunkov@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-pdo": "*",
+    "ext-spl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DaruHashida\\CsvToSql\\": "./src"
+    }
+  }
+}
