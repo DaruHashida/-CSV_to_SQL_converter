@@ -57,15 +57,7 @@ class CsvReader implements IteratorAggregate
 
             if ($row === [null]) continue;
 
-            $hasData = false;
-            foreach ($row as $cell) {
-                if ($cell !== null && trim((string)$cell) !== '') {
-                    $hasData = true;
-                    break;
-                }
-            }
-
-            if (!$hasData) {
+            if (trim(implode('', $row)) === '') {
                 continue;
             }
 

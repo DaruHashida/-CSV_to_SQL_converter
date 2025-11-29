@@ -1,5 +1,3 @@
-code
-Markdown
 # CSV to SQL Converter
 
 A memory-efficient PHP library for converting large CSV files to SQL dumps or importing them directly into a database using PDO.
